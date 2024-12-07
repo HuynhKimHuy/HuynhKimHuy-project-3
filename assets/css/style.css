@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    scroll-behavior: smooth;
+    font-family: "Sora", sans-serif;
+}
+/* common */
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 22px;
+    background: #2e80ce;
+}
+:root {
+    --color-bg: #10375c;
+}
+
+.main_content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+/* headder */
+.header_fixed {
+    background: var(--color-bg);
+    padding-top: 30px;
+}
+
+.header_fixed {
+    position: sticky;
+    z-index: 1;
+    top: -30px;
+}
+
+.header_fixed--cotainer {
+    height: 66px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header_fixed--cotainer .header_fixed--title {
+    margin-left: 6px;
+}
+
+ .header_fixed--title__up {
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.header_fixed--title__down{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: right;
+    color: white;
+}
+.header_fixed--nav {
+    margin: auto;
+}
+.header_fixed--nav ul {
+    display: flex;
+}
+
+.header_fixed--nav li a {
+    margin: 0px 21px 0px 21px;
+    color: #c9d2da;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 175% */
+    text-decoration: none;
+}
+
+.header_fixed--login{
+    position: absolute;
+    right: 0;
+}
+.header_fixed--login a {
+    color: #c9d2da;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-decoration: none;
+    font-style: normal;
+    line-height: 1.75;
+    margin-left: auto;
+}
+
+.header_fixed--login a:nth-child(1) {
+    margin-right: 28px;
+}
+
+.header_fixed--login a:nth-child(2) {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+/* conent hero */
+/* heroleft */
+.hero {
+    background: var(--color-bg);
+    padding-bottom: 110px;
+}
+
+.hero .container {
+    display: flex;
+    padding-top: 84px;
+    align-items: center;
+}
+.hero--content_hero_left {
+    width: 55%;
+}
+
+.hero .body_content_heroleft .title {
+    color: #fff;
+    width: 517px;
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 80px; /* 114.286% */
+    letter-spacing: -1.4px;
+}
+
+.hero .body_content_heroleft .decs {
+    width: 468px;
+    margin-top: 22px;
+    color: #c9d2da;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 30px; /* 166.667% */
+}
+
+.hero .body_content_heroleft .btn {
+    margin-top: 38px;
+    padding: 15px 46px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    border-radius: 999px;
+}
+
+.hero .body_content_heroleft .call {
+    margin-left: 38px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.content_hero_right {
+    width: 45%;
+    margin-left: auto;
+}
+
+.content_hero_right .img_hero_right {
+    display: flex;
+    align-items: center;
+}
+
+.content_hero_right .img_hero_right img:nth-child(1) {
+    border-radius: 6px;
+    width: 330px;
+    height: 540px;
+}
+
+.content_hero_right .img_hero_right img:nth-child(2) {
+    width: 210px;
+    height: 410px;
+    border-radius: 6px;
+}
+/* services */
+
+/* service head */
+.service {
+    margin: 170px 0;
+    
+}
+
+.service--header {
+    text-align: center;
+}
+
+.service--header__title {
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.service--header__decs {
+    margin: auto;
+    width: 468px;
+    color: #575f66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66; /* 166.667% */
+}
+
+/* sevice-body */
+.service--body {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.service--body-left {
+    width: 50%;
+}
+.service--body-left__img {
+    width: 570px;
+    height: 570px;
+    object-fit: cover;
+}
+.service--body-right {
+    width: 50%;
+}
