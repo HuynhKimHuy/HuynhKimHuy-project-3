@@ -15,7 +15,7 @@ body {
 
 .btn {
     display: inline-block;
-    padding: 8px 20px;
+    padding: 15px 20px;
     border-radius: 999px;
     background: #2e80ce;
     color: white;
@@ -35,7 +35,7 @@ a {
 
 .section-heading {
     color: #10375c;
-    font-size: 5;
+    font-size: 50px;
     font-style: normal;
     font-weight: 600;
     line-height: 1.2; /* 120% */
@@ -105,6 +105,10 @@ a {
     text-decoration: none;
 }
 
+.header_fixed--nav li a:hover {
+    text-shadow: 1px 0 0 black;
+}
+
 .header_fixed--login {
     position: absolute;
     right: 0;
@@ -128,6 +132,16 @@ a {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 28px; /* 175% */
+}
+.header-btn {
+    text-align: center;
+    width: 104px;
+    padding: 8px;
+    color: #fff;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
 }
 
 /* conent hero */
@@ -322,9 +336,9 @@ a {
 /* how it work  */
 .howitwork {
     background: #f6fbff;
+    padding: 100px 0 100px;
 }
 .howitwork-heading {
-    padding-top: 100px;
 }
 .howitwork .section-decs {
     margin-right: auto;
@@ -372,4 +386,58 @@ a {
     line-height: 1.75; /* 175% */
     margin-top: 18px;
     display: inline-block;
+}
+/* member  */
+
+.feature {
+    padding: 85px 0;
+    margin: 85px 0;
+}
+.feature .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-media {
+    width: 48%;
+}
+.feature__img {
+    position: relative;
+    padding-bottom: 121px;
+}
+.feature-img__bot {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature-img__top {
+    width: 332px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.feature-right {
+    width: 470px;
+}
+
+.feature-cta {
+    min-width: 205px;
+    margin-top: 38px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.feature-right .section-decs {
+    margin-top: 18px;
 }
