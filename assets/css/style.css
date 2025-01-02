@@ -443,6 +443,10 @@ a {
     margin-top: 18px;
 }
 /* member */
+.member{
+    padding: 85px 0 85px;
+    margin-bottom: 85px;
+}
 .member-header {
     display: flex;
     flex-direction: column;
@@ -520,4 +524,96 @@ a {
 }
 .member-button__right{
     rotate: 180deg;
+}
+
+/* install */
+.install{
+    padding: 85px 0 85px;
+}
+.install_inner{
+    display: flex;
+    align-items: center;
+    height: 427px;
+    background:  #2E80CE;
+    border-radius: 4px;
+ 
+}
+.install__img{
+    width: 286px;
+    height: 522px;
+    margin-top: -95px;
+    margin-left: 70px;   
+    
+}
+.install-left{
+    width: 44%;
+}
+.install-right{
+    width: 56%;
+}
+.install-right .section-heading{
+    color: #FFF;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.20; /* 120% */
+    letter-spacing: -1px;
+    width: 489px;
+}
+
+.install-right .section-decs{
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 200;
+    line-height: 30px; /* 166.667% */
+    width: 586px;
+    margin-top: 18px;
+}
+.install-download{
+    margin-top: 38px;
+    display: flex;
+}
+.install__btn{
+    outline: none;
+    background: #2E80CE;
+    border: none;
+    padding: 0%;
+}
+.install__ios{
+    margin-left: 28px;
+}
+
+.news{
+    padding: 85px 0 85px;
+}
+.news .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.news_list{
+    display: flex;
+    gap: 30px;
+}
+
+.news_item{
+    width: 270px;
+}
+
+.news_item-body{
+    padding: 18px 22px 22px 22px;
+}
+
+.news_item-title{
+    color: #10375C;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.62; /* 162.5% */
+}
+.news_item-desc{
+    color: #575F66;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.7; 
+    margin-top: 10px;
 }
